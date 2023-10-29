@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTITUTE CREATE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #C38EB4;
+            display: flex;
+        }
+        .container1 {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            padding: 40px 180px 80px;
+            margin: 30px 70px 36px;
+        }
+        .form-group input[type="email"],
+        .form-group input[type="text"],
+        .form-group input[type="number"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 1.5px solid #ccc;
+            outline: none;
+            text-align: left;
+        }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="email"]:focus,
+        .form-group input[type="number"]:focus,
+        .form-group input[type="password"]:focus {
+            border-bottom: 1.5px solid black;
+        }
+
+        .btn-primary {
+            background-color: #190019;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-primary:hover {
+            background-color: #26425A;
+        }
+
+        .create-account a {
+            color: #190019;
+        }
+
+        .create-account a:hover {
+            text-decoration: underline;
+        }
+        .container img{
+            margin: 40px;
+            border-radius: 8px;
+            box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        .User{
+            color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <h1 style="text-align:center;">Create Account</h1><br><br>
+        <form action="login.php" method="POST">
+            <div class="form-group">
+                <input type="text" name="fname" placeholder="First Name" required>
+            </div><br>
+            <div class="form-group">
+                <input type="text" name="lname" placeholder="Last Name" required>
+            </div><br>
+            <div class="form-group">
+                <input type="text" name="cname" placeholder="Company name" required>
+            </div><br>
+            <div class="form-group">
+                <input type="number" name="pnumber" placeholder="Phone Number" style="height: 2.5em; width: 100%;" required>
+            </div><br>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email" style="height: 2.5em; width: 100%;" required>
+            </div><br>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="Password" required>
+            </div><br>
+            <center>
+                <input class="btn-primary" type="submit" name="submit" value="Submit" href="http://34.16.173.176/SIHhosting/website/index.html"class="button">
+            </center>
+        </form>
+    </div>
+    <div class="container">
+       <img src="http://34.16.173.176/SIHhosting/website/photos/create1.jpg" style="width: 550px; height: 620px;">  
+    </div>
+</body>
+</html>
