@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Hash Checker</title>
+</head>
+<body>
+    <h1>PDF Hash Checker</h1>
+    <form action="/check" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" accept=".pdf">
+        <input type="submit" value="Check PDF">
+    </form>
+    <div>
+        {% if result %}
+            <p style="color: green;">Hashes match: True</p>
+        {% else %}
+            <p style="color: red;">Hashes do not match: False</p>
+        {% endif %}
+    </div>
+    
+    <a href="/upload">Upload PDF</a>
+</body>
+</html>
