@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VERIFY</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" >
+<link rel="stylesheet" type="text/css" href="veri.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+  margin: 0;
+  padding: 0;
+}
+.top 
+{
+  background: #6da5c0;
+} 
+.footer
+{
+  background:#bd83b6;
+}
+.sec6{
+  background: #bd83b6;
+}
+.section {
+  background: #6da5c0;
+} 
+    body
+    {
+      margin: 0;
+      padding: 0;
+    }
+    .nav a {
+      box-shadow: inset 0 0 0 0 #54b3d6;
+      color: black;
+      border-radius: 15%;
+      transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+    .nav a:hover {
+      box-shadow: inset 100px 0 0 0 #190019;
+      color: white;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    } 
+    .container .col-md-6 p{
+      font-size: 25px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+    .section-2{
+      margin-left: 6.25rem;
+      margin-top: 8.75rem;
+      margin-bottom: 8.75rem;
+    }
+      .top {
+      display: flex;
+      height: 6em;
+      overflow:hidden;
+      align-items: center;
+    } 
+    #technology {
+      argin-left: 90px;
+      height: 250px;
+      position: relative;
+      top: 50px;
+    }
+    .logo
+    {
+      margin-left: 0;
+      vertical-align: middle;
+    }
+    .logo img {
+      width: 90px;
+    }
+    .toplogo{
+      margin-top: -10px;
+      margin-left: 20px;
+    }
+    .toplogo h2 {
+      margin-bottom: 5px;
+    }
+    .toplogo p {
+      margin-bottom: 0;
+    }
+    .nav
+    {
+      justify-content: flex-end;
+      text-align: justify;
+      margin-top: 10px;
+      margin-left: auto;
+      width: 50%;
+      font-size: 20px;
+    }
+    .nav-item{
+      transition: 0.5s;
+    }
+    .nav a{
+      margin: 0px 20px;
+    }
+    .nav img{
+      width: 6%;
+      margin-left: 20px;
+    }
+    .footer{
+      margin:0em auto;
+      overflow:hidden;
+      color:black;
+    }
+    .flogo{
+      width:18em;
+      margin-left:4%;
+      overflow:hidden;
+      margin-top: 15px;
+    }
+    .butm{
+      display: flex;
+      height: 6em;
+      overflow:hidden;
+    }
+    .btmlogo{
+      margin-top: 14px;
+      margin-left: -120px;
+    }
+    .sec6{
+      color: black;
+    }
+    .cont1{
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+    .cont2{
+      margin-top: 50px;
+    }
+    .cont3{
+      margin-top: 50px;
+    }
+    .row{
+  --bs-gutter-x: 0rem;
+}
+.btn{
+  background-color: #190019;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.btn-primary:hover {
+  background-color: #86A8CF;
+}
+.section-2{
+  margin: 100px 20px 150px 20px;
+}
+.bx{
+  background-color: #f5d7db;
+  border-radius: 8px;
+  box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.2);
+  width: 550px;
+  height: 300px;
+  margin: 30px 50px 0px 0px;
+  padding: 30px 50px 10px 50px; 
+}
+.col-md-6 img{
+  margin: 40px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.sec4ch{
+  margin: 132px 200px 100px 50px;
+  font-family: Serif;
+  background-color: #f5d7db;
+  border-radius: 8px;
+  box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.2);
+  width: 550px;
+  height: 300px;
+  padding: 30px 50px 10px 50px;
+}
+.velid{
+  margin-top:0px;
+  text-align: center;
+}
+.velid h1{
+  font-size: 40px;
+}
+.upfl{
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #6da5c0;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+  @media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section-1 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .img{
+    margin: 10px 10px;
+    width: 93%
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cont2{
+    margin-left: 90px;
+  }
+  .cont3{
+    margin-left: 35px;
+  }
+    .toplogo{
+      font-size: 35%;
+      margin: 0px 0px 0px 3px;
+    }
+    .toplogo h2{
+      font-size: 200%;
+    }
+    .logo{
+      width: 12%;
+    }
+    .nav a{
+      color: black;
+      font-size: 40%;
+      margin: 0px 6px;
+      margin-right: auto;
+    }
+    .nav img{
+      width: 10%;
+      margin-left: 2px;
+    }
+    .toplogo p{
+      font-size: 8px;
+    }
+    .velid{
+      font-size: .1%;
+      margin-top: 0px;
+    }
+    .velid h1{
+      font-size: 0.1%;
+      margin-left: 00px;
+    }
+    .bx{
+      padding: 10px;
+    }
+    .bx upfl{
+      font-size: 10px;
+    }
+    .bx{
+      background-color: #f5d7db;
+      border-radius: 10px;
+      box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.2);
+      width: 260px;
+      height: 340px;
+      margin: 0px 1px 5px 1px;
+      padding: 30px 10px 30px 10px; 
+    }
+    /*.col-md-6 img{
+      margin: 40px;
+      border-radius: 8px;
+      box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+    }*/
+    .sec4ch{
+      margin: 20px 0px 10px 0px;
+      font-family: Serif;
+      background-color: #f5d7db;
+      border-radius: 8px;
+      box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.2);
+      width: 260px;
+      height: 140px;
+      padding: 30px 0px 30px 0px;
+    }
+    .section-2{
+      margin-top: 40px;
+    }
+    .hding h1{
+      font-size: 33px;
+    }
+</style>
+</head>
+<body>
+  <div class="section">
+    <div class="container">
+      <div class="top">
+        <div class="logo">
+         <img src="{{ url_for('static', filename='logo.png') }}" width="35%">
+        </div>
+        <div class="toplogo">
+          <h2>Certichain</h2>
+          <p>E-Certificate Generation, Validation, and Issuance</p>
+        </div>
+        <div class="nav">
+          <img src="{{ url_for('static', filename='person-square.svg') }}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="hding">
+          <h1 style= "font-family: Serif;">Get your documents verified!</h1><br><br>
+        </div>
+        <div class="row">
+          <form action="/check" method="post" enctype="multipart/form-data">
+            <div class="bx">
+              <p>Upload the document which you want to verify</p><br>
+              <input class="upfl" type="file" name="pdf_file" accept=".pdf"><br>
+              <input class="btn" type="submit" name="btn" value="Upload">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="sec4ch">
+          <div class="velid">
+          {% if result %}
+            <h2 style="color: green;">Certificate Verifed</h2>
+          {% else %}
+            <h2 style="color: red;">Certificate Invelid</h2>
+          {% endif %}
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+      <div class="section-5">
+  <div class="footer">
+    <div class="butm">
+      <div class="flogo">
+        <img src="{{ url_for('static', filename='logo.png') }}" width="35%">
+      </div>
+      <div class="btmlogo">
+        <h2>Certichain</h2>
+        <p>E-Certificate Generation, Validation, and Issuance</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="cont1">
+          <h3>Contact Us</h3>
+          <p>Email : certichain29@gmail.com</p>
+          <p>Mobile : +91 8709193759</p>
+          <p>Location : Surat, India</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cont2">
+          <h3>Follow Us</h3>
+          <p><a href="https://youtube.com/@reverbaddiction?si=1AD08jXae7yzCkiN" style="color:black;">Youtube</a></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cont3">
+          <p>Subscribe to our newsletter and stay updated<br> with the latest news and updates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+  document.querySelector('.menu-toggle').addEventListener('click', function () {
+  document.querySelector('.nav-links').classList.toggle('active');
+});
+
+</script>
+</html>

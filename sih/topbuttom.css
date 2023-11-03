@@ -1,0 +1,125 @@
+
+body
+{
+ margin:0;
+ padding: 0;
+}
+a
+{
+ text-decoration:none;
+}
+.section .container {
+  padding: 6px 0;
+}
+
+.top {
+  display: flex;
+  height: 6em;
+  overflow:hidden;
+  align-items: center;
+} 
+#technology {
+  argin-left: 90px;
+  height: 250px;
+  position: relative;
+  top: 50px;
+}
+.logo
+{
+  margin-left: 0;
+  vertical-align: middle;
+}
+.logo img {
+  width: 90px;
+}
+.toplogo{
+  margin-top: -10px;
+  margin-left: 20px;
+}
+.toplogo h2 {
+  margin-bottom: 5px;
+}
+.toplogo p {
+  margin-bottom: 0;
+}
+.nav
+{
+  text-align: justify;
+  margin-top: 4px;
+  margin-left: auto;
+  width: 50%;
+  font-size: 30px;
+}
+.nav-item{
+  display: block;
+  transition: 0.5s;
+}
+#nav:hover .nav-item{
+  filter: blur(5px);
+}
+#nav:hover .nav-item:hover{
+  filter: blur(50px);
+}
+.nav a
+{
+  text-decoration:none;
+  text-align:center;
+  color:black;
+  display:inline-block;
+/*  margin-top:.5em;*/
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: #522B5B;
+  font-weight: 500;
+}
+.nav img{
+/*  margin-bottom: 12px;*/
+  margin-left: 20px;
+  width: 30px;
+}
+.footer
+{
+  margin:0em auto;
+  overflow:hidden;
+  color:black;
+}
+nav:hover,
+nav:focus {
+  text-decoration: none;
+}
+.flogo{
+  width:20em;
+  margin-left:4%;
+  overflow:hidden;
+  margin-top: 15px;
+}
+.desc{
+
+}
+.butm{
+  display: flex;
+  height: 6em;
+  overflow:hidden;
+}
+.btmlogo{
+  margin-top: 14px;
+  margin-left: -120px;
+}
+.sec6{
+  color: black;
+}
+.cont1{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.cont2{
+  margin-top: 50px;
+}
+.cont3{
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+   . 
+}
