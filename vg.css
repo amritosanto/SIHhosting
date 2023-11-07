@@ -1,0 +1,252 @@
+    body
+    {
+      margin: 0;
+      padding: 0;
+    }
+    .nav a {
+      box-shadow: inset 0 0 0 0 #54b3d6;
+      color: black;
+      border-radius: 15%;
+      transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+      text-decoration: solid;
+    }
+    .nav a:hover {
+      box-shadow: inset 100px 0 0 0 #190019;
+      color: white;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    } 
+    .container .col-md-6 h1{
+      font-size: 65px;
+    }
+    .container .col-md-6 p{
+      font-size: 25px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+    .sec1img{
+      display: hidden;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 600;
+    }
+  .sec1img {
+    font-size: 30px;
+  }
+    .section-2{
+      margin-left: 6.25rem;
+      margin-top: 8.75rem;
+      margin-bottom: 8.75rem;
+    }
+    .top {
+      display: flex;
+      height: 6em;
+      overflow:hidden;
+      align-items: center;
+    } 
+    #technology {
+      margin-left: 90px;
+      height: 250px;
+      position: relative;
+      top: 50px;
+    }
+    .logo
+    {
+      margin-left: 0;
+      vertical-align: middle;
+    }
+    .logo img {
+      width: 90px;
+    }
+    .toplogo{
+      margin-top: -10px;
+      margin-left: 20px;
+    }
+    .toplogo h2 {
+      margin-bottom: 5px;
+    }
+    .toplogo p {
+      margin-bottom: 0;
+    }
+    .nav
+    {
+      justify-content: flex-end;
+      text-align: justify;
+      margin-top: 10px;
+      margin-left: auto;
+      width: 50%;
+      font-size: 20px;
+    }
+    .nav-item{
+      transition: 0.5s;
+    }
+    .nav a{
+      margin: 0px 20px;
+    }
+    .nav img{
+      width: 6%;
+      margin-left: 20px;
+    }   
+    .footer{
+      margin:0em auto;
+      overflow:hidden;
+      color:black;
+    }
+    .flogo{
+      width:20em;
+      margin-left:4%;
+      overflow:hidden;
+      margin-top: 15px;
+    }
+    .butm{
+      display: flex;
+      height: 6em;
+      overflow:hidden;
+    }
+    .btmlogo{
+      margin-top: 14px;
+      margin-left: -120px;
+    }
+    .sec6{
+      color: black;
+    }
+    .cont1{
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+    .cont2{
+      margin-top: 50px;
+    }
+    .cont3{
+      margin-top: 50px;
+    }
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+  
+  .sec1img{
+    margin: 10px 10px;
+    width: 93%;
+  }
+  
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #6da5c0;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+  @media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .sec1img{
+    margin: 10px 50px;
+    width: 93%
+  }
+  
+  .section-1 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .img{
+    margin: 10px 10px;
+    width: 93%
+  }
+  .section-1{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .sec1img{
+    display: hidden;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px 150px 14px;
+  }
+  .sec1img {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cont2{
+    margin-left: 90px;
+  }
+  .cont3{
+    margin-left: 35px;
+  }
+    #about {
+        background-color: rgb(250, 185, 5);
+    }
+    .section-2 {
+        margin: 0px 10px 20px 30px;
+    }
+    .toplogo{
+      font-size: 35%;
+      margin: 0px 0px 0px 3px;
+    }
+    .toplogo h2{
+      font-size: 200%;
+    }
+    .logo{
+      width: 12%;
+    }
+    .nav a{
+      color: black;
+      font-size: 40%;
+      margin: 0px 6px;
+      margin-right: auto;
+    }
+    .nav img{
+      width: 10%;
+      margin-left: 2px;
+    }
+    .toplogo p{
+      font-size: 8px;
+    }
+    .upl center img{
+      width: 80%;
+      margin-left: 7px;
+    }
+    .icn{
+      margin-left: 0px;
+    }
+    .upl{
+      padding: 0px;
+    }
+  }
